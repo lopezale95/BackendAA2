@@ -43,6 +43,7 @@
                         <th class="text-center">Acciones</th>
                     </tr>
                 </thead>
+                <tbody>
                 <%
                     ClaseProductoDAO dao=new ClaseProductoDAO();
                     List<ClaseProducto>list=dao.listarProducto();
@@ -51,7 +52,7 @@
                     while(iter.hasNext()){
                         prod=iter.next();
                 %>
-                <tbody>
+                
                     <tr>
                         <td class="text-center"><%=prod.getCodigo()%></td>
                         <td class="text-center"><%=prod.getNombre()%></td>
