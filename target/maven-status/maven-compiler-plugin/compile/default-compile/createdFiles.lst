@@ -1,0 +1,5 @@
+Controlador\ControladorProd.class
+Modelo\ClaseProducto.class
+Interfaces\CRUD.class
+Config\ClaseConexion.class
+ModeloDAO\ClaseProductoDAO.class
